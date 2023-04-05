@@ -21,13 +21,13 @@ namespace mod7
                 + ", " + mahasiswa.address.city + ", " + mahasiswa.address.state);
             Console.WriteLine("Courses: ");
 
+
             for (int i = 0; i < mahasiswa.courses.Count; i++)
             {
                 Console.WriteLine("MK " + (i + 1) + " " +
                     mahasiswa.courses[i].name + " - " +
                     mahasiswa.courses[i].code);
             }
-
         }
     }
 }
