@@ -1,7 +1,10 @@
-﻿internal class Program
+﻿using mod7;
+using System;
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        DataMahasiswa1302213039 rasyid = new DataMahasiswa1302213039();
+        rasyid.ReadJSON();
     }
 }
