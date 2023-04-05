@@ -4,7 +4,10 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        DataMahasiswa1302213039 rasyid = new DataMahasiswa1302213039();
+        //DataMahasiswa1302213039 rasyid = new DataMahasiswa1302213039();
+        //rasyid.ReadJSON();
+
+        TeamMembers1302213039 rasyid = new TeamMembers1302213039();
         rasyid.ReadJSON();
     }
 }
